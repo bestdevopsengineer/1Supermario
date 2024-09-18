@@ -22,3 +22,6 @@ GOTO home/default directory/app registration
 terraform init
 terraform plan -var-file="vars/east-us-2.tfvars"
 terraform apply -var-file="vars/east-us-2.tfvars" --auto-approve
+
+git fetch origin
+git reset --hard origin/main
